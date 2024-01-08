@@ -16,6 +16,12 @@ main{
 
     
 }
+h1.temp{
+    
+    font-weight: 300;
+    
+    
+}
 .card{
     position: absolute;
     top: 50%;
