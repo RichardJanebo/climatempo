@@ -1,3 +1,42 @@
+@media screen and  (max-width:992px) {
+    main{
+        padding: 10px;
+    }
+    .card{
+        max-height:500px ;
+    }
+    div.dados img.weather-icon{
+        max-width: 100px;
+    }
+    div.details{
+        display: flex;
+        gap: 0.5rem;
+       
+    }
+    p.humidity , p.wind{
+        font-size: 1.2rem;
+    }
+    div.search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+    div.search button img{
+        width: 16px;
+        margin-right: 1px;
+    }
+    div.search input{
+        left: 5px;
+        
+    }
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
